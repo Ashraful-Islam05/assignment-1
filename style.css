@@ -8,6 +8,7 @@
 * {
    margin: 0;
    padding: 0;
+
 }
 
 /* nav style */
@@ -34,9 +35,11 @@ body nav {
    text-align: left;
 }
 
-.nav-btn {
+/* shared style */
+
+.nav-btn , .banner-btn{
    color: rgb(0, 106, 80);
-   /* font-family: "Fira Sans", serif; */
+   font-family: "Fira Sans", serif;
    font-size: 11px;
    font-weight: 600;
    line-height: 13px;
@@ -46,4 +49,56 @@ body nav {
    border-radius: 4px;
    padding: 10px 19px;
 
+}
+
+/* banner style */
+
+.banner {
+   display: flex;
+   max-width: 819px;
+   max-height: 358px;
+   border-radius: 14px;
+   background: rgb(198, 228, 214);
+   margin: auto;
+   margin-top: 28px;
+
+}
+
+.banner>.banner-content {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin: 51px 37px;
+   gap: 40px;
+}
+
+.banner-subtitle {
+   color: rgba(14, 14, 14, 0.5);
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 18px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: 9px;
+}
+
+.banner-title {
+   color: rgb(14, 14, 14);
+   font-size: 35px;
+   font-weight: 700;
+   line-height: 42px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: 14px;
+}
+
+.banner-btn {
+   border-radius: 8px;
+   background: rgb(0, 106, 80);
+   color: rgb(255, 255, 255);
+}
+.banner-image {
+   max-width: 303px;
+   max-height: 253px;
+   
 }
