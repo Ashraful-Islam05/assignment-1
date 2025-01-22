@@ -37,7 +37,6 @@
 .nav-btn,
 .banner-btn {
    color: rgb(0, 106, 80);
-   font-family: "Fira Sans", serif;
    font-size: 11px;
    font-weight: 600;
    line-height: 13px;
@@ -106,7 +105,7 @@
 
 .vision {
    width: 819px;
-   height: 358px;
+   /* height: 358px; */
    margin: auto;
    margin-top: 51px;
 }
@@ -214,16 +213,17 @@
 
 .vision-cards .c .card-btn {
    background: rgb(255, 194, 57);
-   margin-top: 40px;
+   margin-top: 36px;
 }
 
 /* Dr. Yunus style */
+
 .dr-yunus {
    margin-top: 20px;
    border: 1px solid rgba(14, 14, 14, 0.15);
    border-radius: 12px;
    background: rgb(255, 255, 255);
-   background-image: url('/assets/quote-bg.png');
+   background-image: url('../assets/quote-bg.png');
    background-repeat: no-repeat;
    background-position: top left;
    padding: 30px 15px;
@@ -254,4 +254,87 @@
    line-height: 15px;
    letter-spacing: 0%;
    text-align: left;
+}
+
+/* news section style */
+
+.r-news {
+   width: 819px;
+   margin: auto;
+   margin-top: 51px;
+}
+
+.r-news-title {
+   color: rgb(14, 14, 14);
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 30px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: 15px;
+}
+
+.r-news-description {
+   color: rgba(14, 14, 14, 0.7);
+   font-size: 10px;
+   font-weight: 400;
+   line-height: 15px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: 20px;
+}
+
+.news-box {
+   border-radius: 15px;
+   background: rgb(242, 247, 252);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-bottom: 15px;
+   padding: 30px;
+   gap: 20px;
+}
+
+.news-box-image img {
+   width: 261px;
+   height: 195px;
+   border-radius: 15px;
+}
+
+.news-box .news h3 {
+   color: rgba(14, 14, 14, 0.8);
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 23px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: 8px;
+}
+
+.news-box .news img {
+   width: 85px;
+   height: 25px;
+}
+.news-box .news .time {
+   margin: 8px 0;
+}
+.news-box .news p {
+   color: rgba(14, 14, 14, 0.7);
+   font-size: 10.2px;
+   font-weight: 400;
+   line-height: 14px;
+   letter-spacing: 0%;
+   text-align: left;
+}
+.news-btn {
+   background: rgb(0, 106, 80);
+   /* border-radius: 5px; */
+   /* padding: 9px 16px; */
+   color: rgb(255, 255, 255);
+   font-size: 11px;
+   font-weight: 600;
+   line-height: 12px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-top: 20px;
 }
