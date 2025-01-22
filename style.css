@@ -33,12 +33,29 @@
 }
 
 /* shared style */
+.vision,
+.r-news,
+.donate,
+.n-letter,
+.footer-content {
+   width: 819px;
+   margin: auto;
+   margin-top: 51px;
+}
 
-.nav-btn, .banner-btn, .card-btn, .news-btn:hover {
+.nav-btn,
+.banner-btn,
+.card-btn,
+.news-btn,
+.donate-btn,
+.taka :hover {
    cursor: pointer;
 }
 
-.nav-btn, .banner-btn {
+.nav-btn,
+.banner-btn,
+.news-btn,
+.donate .donate-btn {
    color: rgb(0, 106, 80);
    font-size: 11px;
    font-weight: 600;
@@ -106,12 +123,6 @@
 
 /* vision style */
 
-.vision {
-   width: 819px;
-   /* height: 358px; */
-   margin: auto;
-   margin-top: 51px;
-}
 
 .vision-title {
    color: rgb(14, 14, 14);
@@ -261,11 +272,7 @@
 
 /* news section style */
 
-.r-news {
-   width: 819px;
-   margin: auto;
-   margin-top: 51px;
-}
+
 
 .r-news-title {
    color: rgb(14, 14, 14);
@@ -318,9 +325,11 @@
    width: 85px;
    height: 25px;
 }
+
 .news-box .news .time {
    margin: 8px 0;
 }
+
 .news-box .news p {
    color: rgba(14, 14, 14, 0.7);
    font-size: 10.2px;
@@ -329,10 +338,13 @@
    letter-spacing: 0%;
    text-align: left;
 }
+
+/* donate section style */
+
+/* shared style */
+.donate .donate-btn,
 .news-btn {
    background: rgb(0, 106, 80);
-   /* border-radius: 5px; */
-   /* padding: 9px 16px; */
    color: rgb(255, 255, 255);
    font-size: 11px;
    font-weight: 600;
@@ -340,4 +352,156 @@
    letter-spacing: 0%;
    text-align: left;
    margin-top: 20px;
+}
+
+.donate .donate-title {
+   color: rgb(14, 14, 14);
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 30px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+
+.donate .donate-description {
+   color: rgba(14, 14, 14, 0.7);
+   font-size: 10.2px;
+   font-weight: 400;
+   line-height: 15px;
+   letter-spacing: 0%;
+   text-align: center;
+   padding: 15px 56px 20px;
+}
+
+.taka-box {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px 66px;
+}
+
+.taka-box .taka {
+   border: 1px solid rgba(14, 14, 14, 0.15);
+   border-radius: 10.2px;
+   background: rgb(255, 255, 255);
+}
+
+.taka-box .taka h2 {
+   color: rgba(14, 14, 14, 0.8);
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 30px;
+   letter-spacing: 0%;
+   text-align: left;
+   padding: 25px;
+}
+
+.taka-box .taka :hover {
+   background-color: rgb(198, 228, 214);
+   border-radius: 10.2px;
+}
+
+.amount-submit {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.amount-submit p {
+   width: 660px;
+   text-align: center;
+   border: none
+}
+
+.amount-submit p input {
+   border: 1px solid rgba(14, 14, 14, 0.15);
+   background: rgb(255, 255, 255);
+   padding: 15px 270px;
+}
+
+/* news letter section style */
+
+.n-letter {
+   border-radius: 15px;
+   background: rgb(198, 228, 214);
+}
+
+.n-letter-content {
+   padding: 51px 64px;
+}
+
+.n-letter-title {
+   color: rgb(14, 14, 14);
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 30px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.n-letter-description {
+   color: rgba(14, 14, 14, 0.7);
+   font-size: 10px;
+   font-weight: 400;
+   line-height: 15px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.subscribe-box {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.subscribe-box p {}
+
+.subscribe-box input {
+   padding: 11.2px 25px;
+   border-radius: 10px 0 0 10px;
+   border: none;
+   width: 384px;
+   /* display: block; */
+   /* margin-bottom: 15px; */
+}
+
+.subscribe-box button {
+   border-radius: 0px 8px 8px 0px;
+   background: rgb(0, 106, 80);
+   padding: 12px 22px;
+   border: none;
+   color: rgb(255, 255, 255);
+   font-size: 11px;
+   font-weight: 600;
+   line-height: 14px;
+   letter-spacing: 0%;
+   text-align: left;
+}
+
+.n-letter .commit-word {
+   margin-top: 15px;
+}
+
+/* footer style */
+.footer-content {
+   padding: 32px 0;
+}
+
+.footer-title {
+   color: rgb(14, 14, 14);
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 24px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-bottom: 32px;
+}
+.footer-content .social-icons {
+   text-align: center;
+   margin-top: 32px;
 }
