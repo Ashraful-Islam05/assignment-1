@@ -48,7 +48,9 @@
 .card-btn,
 .news-btn,
 .donate-btn,
-.taka :hover {
+.taka,
+.subscribe-box button,
+.social-icons :hover {
    cursor: pointer;
 }
 
