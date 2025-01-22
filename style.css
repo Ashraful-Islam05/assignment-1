@@ -59,6 +59,7 @@
 .news-btn,
 .donate .donate-btn {
    color: rgb(0, 106, 80);
+   font-family: "Fira Sans", serif;
    font-size: 11px;
    font-weight: 600;
    line-height: 13px;
